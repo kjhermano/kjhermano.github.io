@@ -1,0 +1,99 @@
+html{
+	background-image: url("3.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-width: 1024px;
+	min-height: 100%;
+
+	width: 100%
+	height: auto;
+}
+
+header{
+	text-align: center;
+	/*font-size: 300%;*/
+	/*background-color:  rgba(16, 64, 92, 0.4);*/
+	border-radius: 5px;
+	margin: 5% 30% 0% 30%;
+	padding-top: 15px;
+}
+
+body{
+	/*bckground-image: url("3.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+	font-family: "Lucida Console";
+	/*background:rgb(64, 85, 109);*/
+	font-family: arial;
+	color: white;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px 5px 15px;
+}
+
+nav ul li a:hover{
+	background-color: rgba(16, 64, 92, 0.5);
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+a:hover,a:active{ 
+	text-decoration: underline; 
+}
+
+h2{
+	background-color: rgba(16, 64, 92, 0.4);
+	padding: 2px;
+	border-radius: 5px;
+}
+
+div{
+	border-radius: 8px;
+	 margin: 5% 20% 10% 20%;
+	 background-color:  rgba(16, 64, 92, 0.4);  
+	 padding-bottom: 10px;            
+}
+
+div h3, div p{
+	margin: 20px;
+}
+
+div p{
+	border-radius: 8px;
+	background-color: rgba(16, 64, 92, 0.5);
+	padding: 5px;
+}
+
+div h3{
+	padding-top: 10px;
+}
+
+
+footer{
+	text-align: right;
+	color: white;
+	margin: 5% 0% 0% 0%;
+	text-transform: uppercase;
+	font-size: 80%;
+	clear: both;
+}
+
+.photo{
+	padding: 5px;
+	margin: 5px;
+	float: left;
+	border: 1px solid #999;
+}
+
+#photoGallery{
+	margin: 0;
+	overflow: auto;
+	padding-left: 55px;
+}
